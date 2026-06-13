@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dope: Ballistic Log</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,system-ui,sans-serif;background:#0C0D0F;color:#E8E3DC;min-height:100vh}
+.hero{padding:60px 24px 48px;text-align:center;max-width:600px;margin:0 auto}
+.icon{width:96px;height:96px;border-radius:22px;margin:0 auto 24px;display:flex;align-items:center;justify-content:center}
+h1{font-size:36px;font-weight:700;letter-spacing:-.02em;margin-bottom:8px}
+h1 span{color:#C8955A}
+.tagline{font-size:18px;color:#8A9099;margin-bottom:32px;line-height:1.5}
+.badge{display:inline-block;background:#C8955A;color:#0C0D0F;font-size:14px;font-weight:600;padding:10px 24px;border-radius:24px;text-decoration:none;margin-bottom:8px}
+.badge-sub{font-size:12px;color:#4A5058;margin-bottom:48px}
+.features{display:grid;grid-template-columns:1fr 1fr;gap:12px;max-width:480px;margin:0 auto 48px;text-align:left}
+.feat{background:#161819;border:1px solid #2A2E31;border-radius:12px;padding:16px}
+.feat-title{font-size:13px;font-weight:600;color:#E8E3DC;margin-bottom:4px}
+.feat-desc{font-size:12px;color:#4A5058;line-height:1.5}
+.feat-icon{font-size:20px;margin-bottom:8px}
+.legal{text-align:center;padding:24px;border-top:1px solid #2A2E31}
+.legal a{font-size:13px;color:#4A5058;text-decoration:none;margin:0 12px}
+.legal a:hover{color:#C8955A}
+.free-badge{display:inline-block;background:rgba(76,175,114,.12);color:#4CAF72;font-size:12px;font-weight:600;padding:4px 12px;border-radius:12px;margin-bottom:16px}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="icon">
+    <svg width="96" height="96" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+      <rect width="160" height="160" rx="36" fill="#0C0D0F"/>
+      <circle cx="80" cy="80" r="52" fill="none" stroke="#C8955A" stroke-width="1.5"/>
+      <circle cx="80" cy="80" r="36" fill="none" stroke="#C8955A" stroke-width="0.8" stroke-opacity=".5"/>
+      <line x1="80" y1="22" x2="80" y2="60" stroke="#C8955A" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="80" y1="100" x2="80" y2="138" stroke="#C8955A" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="22" y1="80" x2="60" y2="80" stroke="#C8955A" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="100" y1="80" x2="138" y2="80" stroke="#C8955A" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="80" y1="28" x2="80" y2="34" stroke="#C8955A" stroke-width="1" stroke-opacity=".6" transform="rotate(45 80 80)"/>
+      <line x1="80" y1="28" x2="80" y2="34" stroke="#C8955A" stroke-width="1" stroke-opacity=".6" transform="rotate(135 80 80)"/>
+      <line x1="80" y1="28" x2="80" y2="34" stroke="#C8955A" stroke-width="1" stroke-opacity=".6" transform="rotate(225 80 80)"/>
+      <line x1="80" y1="28" x2="80" y2="34" stroke="#C8955A" stroke-width="1" stroke-opacity=".6" transform="rotate(315 80 80)"/>
+      <circle cx="80" cy="44" r="1.8" fill="#C8955A" fill-opacity=".7"/>
+      <circle cx="80" cy="116" r="1.8" fill="#C8955A" fill-opacity=".7"/>
+      <circle cx="44" cy="80" r="1.8" fill="#C8955A" fill-opacity=".7"/>
+      <circle cx="116" cy="80" r="1.8" fill="#C8955A" fill-opacity=".7"/>
+      <circle cx="80" cy="80" r="4" fill="#C8955A"/>
+      <circle cx="80" cy="80" r="2" fill="#0C0D0F"/>
+    </svg>
+  </div>
+  <div class="free-badge">Free · No account · Fully offline</div>
+  <h1>Dope: <span>Ballistic Log</span></h1>
+  <p class="tagline">Precision firing solutions, wind clock, dope card, shot log and session summary. Built by a shooter, for shooters.</p>
+  <a class="badge" href="#">Download on the App Store</a>
+  <div class="badge-sub">iPhone · Free with optional tip</div>
+
+  <div class="features">
+    <div class="feat">
+      <div class="feat-icon">⊕</div>
+      <div class="feat-title">Instant firing solution</div>
+      <div class="feat-desc">MOA and MRAD live as you drag the distance slider</div>
+    </div>
+    <div class="feat">
+      <div class="feat-icon">◎</div>
+      <div class="feat-title">Wind clock</div>
+      <div class="feat-desc">Dial direction with one thumb. Full value auto-calculated</div>
+    </div>
+    <div class="feat">
+      <div class="feat-icon">▤</div>
+      <div class="feat-title">Auto dope card</div>
+      <div class="feat-desc">100–1000 yds, angle-corrected, exports to PDF</div>
+    </div>
+    <div class="feat">
+      <div class="feat-icon">◈</div>
+      <div class="feat-title">Velocity truing</div>
+      <div class="feat-desc">Back-solve true MV from real-world hits</div>
+    </div>
+    <div class="feat">
+      <div class="feat-icon">≡</div>
+      <div class="feat-title">Shot log</div>
+      <div class="feat-desc">Every shot logged with conditions, result and notes</div>
+    </div>
+    <div class="feat">
+      <div class="feat-icon">◉</div>
+      <div class="feat-title">Angle correction</div>
+      <div class="feat-desc">Rifleman's Rule cosine correction built in</div>
+    </div>
+  </div>
+</div>
+
+<div class="legal">
+  <a href="privacy.html">Privacy Policy</a>
+  <a href="terms.html">Terms of Use</a>
+  <a href="mailto:hello@coldborelabs.com">Support</a>
+  <br><br>
+  <span style="font-size:12px;color:#2A2E31">© 2025 Cold Bore Labs</span>
+</div>
+</body>
+</html>
